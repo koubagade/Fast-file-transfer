@@ -39,9 +39,9 @@ git commands:
 
 	a. git status 
 	check the file you modified is highlighed in modified list.
-	b. git add <filename> (or names)
+	b. git add filename (or names)
 	filename is the file (or files) which you want to commit (save chanfges to repository)
-	c. git commit -m "<message>"
+	c. git commit -m "message"
 	message is one line description of changes
 	d. git push origin master
 	sends code to internet repositry where it will be made available to other users
@@ -50,7 +50,7 @@ git commands:
 	git diff
 
 4. discard changes made to file and get the previously commited code 
-	git checkout <filename>
+	git checkout filename
 
 	
 
