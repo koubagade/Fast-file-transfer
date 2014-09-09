@@ -37,14 +37,14 @@ git commands:
 
 2. Once you changed some code and tested it works
 
-	a. git status 
-	check the file you modified is highlighed in modified list.
-	b. git add filename (or names)
-	filename is the file (or files) which you want to commit (save chanfges to repository)
-	c. git commit -m "message"
-	message is one line description of changes
-	d. git push origin master
-	sends code to internet repositry where it will be made available to other users
+a. git status 
+check the file you modified is highlighed in modified list.
+b. git add filename (or names)
+filename is the file (or files) which you want to commit (save chanfges to repository)
+c. git commit -m "message"
+message is one line description of changes
+d. git push origin master
+sends code to internet repositry where it will be made available to other users
 
 3. compare your changes with online repo
 	git diff
