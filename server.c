@@ -8,7 +8,7 @@
 #include<string.h>
 #include<netdb.h>
 
-#define BUFFER_SIZE 65507
+#define BUFFER_SIZE 1024
 
 int n;
 FILE *output;
@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
       count += nbrecv;
       fflush(output);
       fwrite(buffer, 1, nbrecv, output);
-      if(nbrecv<65507)
+      if(nbrecv<1024)
 	{
 	  flag = 0;
 	}

@@ -18,22 +18,22 @@ git commands:
 2. Once you changed some code and tested it works
 
 --> git status
-check the file you modified is highlighed in modified list.
+---check the file you modified is highlighed in modified list.
 
 --> git add filename (or names)
-filename is the file (or files) which you want to commit (save chanfges to repository)
+----filename is the file (or files) which you want to commit (save chanfges to repository)
 
 --> git commit -m "message"
-message is one line description of changes
+----message is one line description of changes
 
 --> git push origin master
-sends code to internet repositry where it will be made available to other users
+----sends code to internet repositry where it will be made available to other users
 
 3. compare your changes with online repo
-git diff
+----git diff
 
 4. discard changes made to file and get the previously commited code 
-git checkout filename
+----git checkout filename
 
 	
 
